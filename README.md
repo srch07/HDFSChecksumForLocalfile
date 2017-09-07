@@ -11,15 +11,15 @@ Arguments can be provided in either of the below format:
 
 1. file name with path
 
-    eg, java -jar "this_jar_filename_with_path"
+    eg, java -jar "this_jar_filename_with_path" "local file path"
 
 2. filename_with_path BytesPerChecksum ChecksumPerBlock
 
-    eg, java -jar "this_jar_filename_with_path" 256 512
+    eg, java -jar "this_jar_filename_with_path" "local file path" 256 512
 
 3. filename_with_path BytesPerChecksum ChecksumPerBlock AlgorithmType(CRC32/CRC32C/NULL/DEFAULT/MIXED)
 
-    eg, java -jar "this_jar_filename_with_path" 256 512 CRC32C
+    eg, java -jar "this_jar_filename_with_path" "local file path" 256 512 CRC32C
 
 ## How to use this jar in your project?
 
